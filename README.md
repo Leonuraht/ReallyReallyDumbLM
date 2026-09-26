@@ -23,15 +23,15 @@ Total chars in d1 : 400M approx
 Total tokens in d1 : 97 M approx
 same goes for d2
 
-each d1 , d2 is trained for 3 epochs.
-So total tokens seen : (97 + 97) * 3 = 582M tokens
-Which is double its  Chinchilla limit (15 * 20 = 300M tokens) 
-the valid loss decreased like:
- 4.59 4.08 3.95     3.78 3.58 3.40
+- each d1 , d2 is trained for 3 epochs.
+- So total tokens seen : (97 + 97) * 3 = 582M tokens
+- Which is double its  Chinchilla limit (15 * 20 = 300M tokens) 
+- the valid loss decreased like:
+ - 4.59 4.08 3.95     3.78 3.58 3.40
 
 **Final Validation : 3.4 -- 3.5**
 
-### After this the model was trained on another 300M dataset and the model valid loss stagnated no the training was stopped.
+### After this the model was trained on another 300M dataset on top of this 582M , the model valid loss stagnated so the training was stopped.
 
 ## Sample Prompt
 ```
