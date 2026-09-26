@@ -1,6 +1,8 @@
 # ReallyReallyDumbLM
-A 15M Dense GQA model trained on UltraFineWeb L3 Multi Style English.
+A 15M Dense GQA model trained from scratch on UltraFineWeb L3 Multi Style English.
 model link : [https://huggingface.co/Leonuraht/ReallyReaallyDumbLM]
+
+**The architecture is built and pre-trained on the dataset from scratch.**
 
 This model showed fluent grammar but lacked meaning in sentences due to its lack of depth and small size.
 
