@@ -14,6 +14,7 @@ So only FP32 is uploaded in HF.
 * Each GQA is 1.2M paras
 * lr = 8e-4
 * AdamW optimizer with cosine decay.
+* Total Hours Trained : 8hrs on single T4 GPU.
 
 ## Dataset:
 d1 = (0000 + 0001) of UltraFine L3
