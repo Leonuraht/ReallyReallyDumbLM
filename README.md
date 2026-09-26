@@ -34,10 +34,9 @@ the valid loss decreased like:
 ### After this the model was trained on another 300M dataset and the model valid loss stagnated no the training was stopped.
 
 ## Sample Prompt
-
+'''
 --- PROMPT: "The history of science shows that" ---
 The history of science shows that the term "law" remains evident across its medical societies. The text further includes key concepts and findings, including the concept of the BBC, which aims to illustrate how the term is used in medical settings, the term "law rhym", and the idea of a "laws" meaning "law." The text also references the concept of "law rhym" and "law tatto" in a study used to describe the idea of
-
-
+'''
 ## Future
 This model is in base version and can be finetuned for lightweight purposes.
