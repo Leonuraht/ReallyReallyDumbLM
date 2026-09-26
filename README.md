@@ -1,5 +1,6 @@
 # ReallyReallyDumbLM
 A 15M Dense GQA model trained on UltraFineWeb L3 Multi Style English.
+model link : (link)[https://huggingface.co/Leonuraht/ReallyReaallyDumbLM]
 
 Tokenizer : BPE on the same dataset
 Vocab : 8192
