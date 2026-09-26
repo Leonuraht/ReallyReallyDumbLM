@@ -8,12 +8,12 @@ This model showed fluent grammar but lacked meaning in sentences due to its lack
 The model if 60MB in FP32 and even though its 30MB in FP16 , 15MB INT8 produced smaller results but with significant degradation.
 So only FP32 is uploaded in HF.
 
--Tokenizer : BPE on the same dataset
--Vocab : 8192
--11 Desnse GQA Blocks wth hdim of 256
--Each GQA is 1.2M paras
--lr = 8e-4
--AdamW optimizer with cosine decay.
+* Tokenizer : BPE on the same dataset
+* Vocab : 8192
+* 11 Desnse GQA Blocks wth hdim of 256
+* Each GQA is 1.2M paras
+* lr = 8e-4
+* AdamW optimizer with cosine decay.
 
 ## Dataset:
 d1 = (0000 + 0001) of UltraFine L3
