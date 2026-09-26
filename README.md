@@ -21,8 +21,6 @@ So total tokens seen : (97 + 97) * 3 = 582M tokens
 Which is double its  Chinchilla limit (15 * 20 = 300M tokens) 
 the valid loss decreased like:
  4.59 4.08 3.95     3.78 3.58 3.40
-   
-    d1                  d2
 
 **Final Validation : 3.4 -- 3.5**
 
